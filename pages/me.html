@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>page</title>
+</head>
+
+<body class="page">
+    <header class="header">
+
+        <a class="logo" href='#'> <img class="logo-img" src="../img/logo.svg" alt="logo"></a>
+        <ul class="menu">
+            <li><a class="menu-link" href="../index.html">Главная</a></li>
+            <li><a class="menu-link active-link" href="#">Студенты</a></li>
+            <li><a class="menu-link" href="about.html">О курсе</a></li>
+            <li><a class="menu-link" href="adress.html">Контакты</a></li>
+        </ul>
+        <a class="login-button" href="login.html">Войти</a>
+
+        <div class="login-popup">
+            <h2 class="login-heading">Войти на сайт</h2>
+            <form class="login-form" action="" method="get">
+                <input class="login-input" name="login" type="text" placeholder="Логин" required="">
+                <input class="password-input" name="password" type="password" placeholder="Пароль" required="">
+                <button class="popup-button" type="submit">Войти</button>
+            </form>
+        </div>
+
+    </header>
+    <main class="main main-students">
+        <body>
+            <div class="intro">
+                <h1>Кличко Ольга Васильевна</h1>
+                <h2>Информация о студенте</h2>
+                <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%88%D0%BA%D0%B0"> Кошка </a>
+                <object class="icon" data="иконка.svg"></object>
+            </div>
+        
+            <ol type="1" start="2">
+                <li>один</li>
+                <li>два</li>
+                <li>три</li>
+            </ol>
+            <table>
+                <tr>
+                    <th>ячейка</th>
+                    <th>ячейка</th>
+                    <th>ячейка</th>
+                </tr>
+                <tr>
+                    <td colspan="2">ячейка</td>
+                    <td>ячейка</td>
+                </tr>
+                <tr>
+                    <td>ячейка</td>
+                    <td>ячейка</td>
+                    <td>ячейка</td>
+                </tr>
+            </table>
+        
+            <form action="" method="get">
+                <fieldset>
+                    <legend>о вас</legend>
+                    <label for="name">Ваше имя</label>
+                    <input id="name" type="text" name="username">
+                </fieldset>
+                <label for="beginner">begginer</label>
+                <input id="begineer" type="checkbox" name="lavel" value="begginer">
+                <label for="intermadiate">intermadiate</label>
+                <input id="intermadiate" type="checkbox" name="lavel" value="intermadiate">
+        
+            </form>
+        </body>
+    </main>
+    <footer class="footer">
+        <p class="copywrite">2022 &copy;<a class="innop-link" href="https://innopolis.com/">Иннополиc</a></p>
+    </footer>
+    <script defer src="../js/login-popup.js"></script>
+</body>
+
+</html>
+
+
+
+
+
